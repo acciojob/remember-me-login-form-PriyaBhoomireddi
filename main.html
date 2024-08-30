@@ -8,22 +8,18 @@
 <body>
     <h1>Login Form</h1>
     <form id="loginForm">
-        <div>
-            <input type="text" id="username" placeholder="Username" required>
-        </div>
-        <div>
-            <input type="password" id="password" placeholder="Password" required>
-        </div>
-        <div>
-            <input type="checkbox" id="checkbox">
-            <label for="checkbox">Remember me</label>
-        </div>
-        <div>
-            <input type="submit" id="submit" value="Submit">
-        </div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Username">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password">
+        <br>
+        <label for="checkbox">Remember me:</label>
+        <input type="checkbox" id="checkbox">
+        <br>
+        <input type="submit" id="submit" value="Submit">
     </form>
-    <button id="existing" style="display:none;">Login as existing user</button>
-
+    <button id="existing" style="display: none;">Login as existing user</button>
     <script src="script.js"></script>
 </body>
 </html>
